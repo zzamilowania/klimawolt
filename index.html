@@ -25,18 +25,19 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=NhbdE3"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=NhbdE3" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=LdI14C"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=LdI14C" type="text/css">
 
   
   
   <style>
-/* Responsywne logo - dopasuje się do szerokości ekranu */
-.image01 .image-wrapper {
+/* Responsywne logo w sekcji article03 */
+.article03 .image-wrapper {
     width: 100%;
     text-align: center;
+    padding: 0 15px;
 }
 
-.image01 .image-wrapper img {
+.article03 .image-wrapper img {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -45,18 +46,62 @@
 
 /* Na telefonie zmniejsz logo aby zmieściło się całe */
 @media (max-width: 767px) {
-    .image01 .image-wrapper img {
-        width: 90%;
-        max-width: 90%;
+    .article03 .image-wrapper {
+        padding: 0 10px;
+    }
+    
+    .article03 .image-wrapper img {
+        width: 85% !important;
+        max-width: 85% !important;
         margin: 0 auto;
         display: block;
     }
 }
 
-/* Na średnich ekranach */
+/* Na średnich ekranach (tablety) */
 @media (min-width: 768px) and (max-width: 991px) {
-    .image01 .image-wrapper img {
-        width: 85%;
+    .article03 .image-wrapper img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* ========================================= */
+/* NOWA SEKCJA - article01 (foto-main) */
+/* ========================================= */
+
+.article01 .image-wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.article01 .image-wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Na telefonie */
+@media (max-width: 767px) {
+    .article01 .image-wrapper {
+        padding: 0 10px;
+    }
+    
+    .article01 .image-wrapper img {
+        width: 90% !important;
+        max-width: 90% !important;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Na tabletach */
+@media (min-width: 768px) and (max-width: 991px) {
+    .article01 .image-wrapper img {
+        width: 95%;
         margin: 0 auto;
         display: block;
     }

@@ -87,7 +87,7 @@
         "main": true,
         "title": "Klimawolt – Montaż i Serwis Klimatyzacji | Fachowcy z Doświadczeniem",
         "meta_descr": "Profesjonalny montaż i serwis klimatyzacji domowych i biurowych. Doradzimy, dobierzemy i zamontujemy idealny system chłodzenia lub ogrzewania – solidnie i na czas.",
-        "header_custom": "<style>\n/* Responsywne logo - dopasuje się do szerokości ekranu */\n.image01 .image-wrapper {\n    width: 100%;\n    text-align: center;\n}\n\n.image01 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie zmniejsz logo aby zmieściło się całe */\n@media (max-width: 767px) {\n    .image01 .image-wrapper img {\n        width: 90%;\n        max-width: 90%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na średnich ekranach */\n@media (min-width: 768px) and (max-width: 991px) {\n    .image01 .image-wrapper img {\n        width: 85%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n</style>",
+        "header_custom": "<style>\n/* Responsywne logo w sekcji article03 */\n.article03 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article03 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie zmniejsz logo aby zmieściło się całe */\n@media (max-width: 767px) {\n    .article03 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article03 .image-wrapper img {\n        width: 85% !important;\n        max-width: 85% !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na średnich ekranach (tablety) */\n@media (min-width: 768px) and (max-width: 991px) {\n    .article03 .image-wrapper img {\n        width: 90%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* ========================================= */\n/* NOWA SEKCJA - article01 (foto-main) */\n/* ========================================= */\n\n.article01 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article01 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie */\n@media (max-width: 767px) {\n    .article01 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article01 .image-wrapper img {\n        width: 90% !important;\n        max-width: 90% !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na tabletach */\n@media (min-width: 768px) and (max-width: 991px) {\n    .article01 .image-wrapper img {\n        width: 95%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n</style>",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/klimawolt-logo-barwne-ciemne-tla-przezr-bduze-1.png"
@@ -723,7 +723,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
