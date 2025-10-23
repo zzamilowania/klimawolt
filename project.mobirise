@@ -87,9 +87,10 @@
         "main": true,
         "title": "Klimawolt – Montaż i Serwis Klimatyzacji | Fachowcy z Doświadczeniem",
         "meta_descr": "Profesjonalny montaż i serwis klimatyzacji domowych i biurowych. Doradzimy, dobierzemy i zamontujemy idealny system chłodzenia lub ogrzewania – solidnie i na czas.",
-        "header_custom": "",
+        "header_custom": "<style>\n@media (max-width: 767px) {\n    .image01 .image-wrapper img {\n        max-width: 90% !important;\n        height: auto !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n</style>",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/klimawolt-logo-barwne-ciemne-tla-przezr-bduze-1.png"
       },
       "components": [
         {
