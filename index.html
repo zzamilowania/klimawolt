@@ -25,15 +25,38 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rethink+Sans:400,500,600,700,800,400i,500i,600i,700i,800i&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Wu1M5l"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Wu1M5l" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=NhbdE3"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=NhbdE3" type="text/css">
 
   
   
   <style>
+/* Responsywne logo - dopasuje się do szerokości ekranu */
+.image01 .image-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.image01 .image-wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Na telefonie zmniejsz logo aby zmieściło się całe */
 @media (max-width: 767px) {
     .image01 .image-wrapper img {
-        max-width: 90% !important;
-        height: auto !important;
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Na średnich ekranach */
+@media (min-width: 768px) and (max-width: 991px) {
+    .image01 .image-wrapper img {
+        width: 85%;
         margin: 0 auto;
         display: block;
     }
@@ -91,33 +114,13 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="image01 carem5 cid-v0rWlWe1pM" id="image01-a">
-    
-
-    
-    
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <div class="image-wrapper">
-                    <img src="assets/images/klimawolt-logo-barwne-ciemne-tla-przezr-duze-2.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="decor-wrap_1"></div>
-    <div class="decor-wrap_2"></div>
-    <div class="decor-wrap_3"></div>
-</section>
-
 <section data-bs-version="5.1" class="article01 progressm5 cid-v0rYGt6FfM" id="article01-b">
     
 
     
     
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div class="content-wrapper">
@@ -130,7 +133,7 @@
                         </div>
                     </div>
                     <div class="image-wrapper">
-                        <img src="assets/images/person.png" alt="">
+                        <img src="assets/images/foto-main-1.png" alt="main">
                     </div>
                     <div class="mbr-section-btn"><a class="btn btn-secondary display-4" href="index.html#contacts01-b">
                             <span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn"></span>
