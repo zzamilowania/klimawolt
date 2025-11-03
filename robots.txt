@@ -1,16 +1,7 @@
 User-agent: *
 Allow: /
 
-# Blokada dostępu do folderów systemowych (Mobirise, skrypty, zaplecze)
-Disallow: /assets/
-Disallow: /modules/
-Disallow: /scripts/
-Disallow: /engine/
-Disallow: /editor/
-
-# Mapa witryny dla Google i innych robotów
 Sitemap: https://klimawolt.com/sitemap.xml
 
-# Strona główna jako preferowana (kanoniczny adres bez www)
-Host: klimawolt.com
+
 
