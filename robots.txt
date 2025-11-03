@@ -13,3 +13,4 @@ Sitemap: https://klimawolt.com/sitemap.xml
 
 # Strona główna jako preferowana (kanoniczny adres bez www)
 Host: klimawolt.com
+
