@@ -54,12 +54,12 @@
     ],
     "imageResize": false,
     "robotsSwitcher": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsText": "User-agent: *\nAllow: /\n\n# Blokada dostępu do folderów systemowych (Mobirise, skrypty, zaplecze)\nDisallow: /assets/\nDisallow: /modules/\nDisallow: /scripts/\nDisallow: /engine/\nDisallow: /editor/\n\n# Mapa witryny dla Google i innych robotów\nSitemap: https://klimawolt.com/sitemap.xml\n\n# Strona główna jako preferowana (kanoniczny adres bez www)\nHost: klimawolt.com\n",
     "sitemapSwitcher": true,
     "siteUrl": "https://klimawolt.pl",
     "sitemapSwitcherAuto": "on",
     "favicon": false,
-    "mbrsiteDomain": "97psrxyho4",
+    "mbrsiteDomain": "tdaukhsxji",
     "usedWebp": false,
     "cookiesAlert": {
       "customDialogSelector": false,
@@ -79,15 +79,16 @@
     "uniqCompNum": 12,
     "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
-    "site_lang": "pl"
+    "site_lang": "pl",
+    "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-76JL5R0PMC\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'G-76JL5R0PMC');\n</script>\n<link rel=\"canonical\" href=\"https://klimawolt.com/\">\n\n"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Klimawolt – Montaż i Serwis Klimatyzacji | Fachowcy z Doświadczeniem",
-        "meta_descr": "Profesjonalny montaż i serwis klimatyzacji domowych i biurowych. Doradzimy, dobierzemy i zamontujemy idealny system chłodzenia lub ogrzewania – solidnie i na czas.",
-        "header_custom": "<style>\n/* Responsywne logo w sekcji article03 */\n.article03 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article03 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie zmniejsz logo aby zmieściło się całe */\n@media (max-width: 767px) {\n    .article03 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article03 .image-wrapper img {\n        width: 85% !important;\n        max-width: 85% !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na średnich ekranach (tablety) */\n@media (min-width: 768px) and (max-width: 991px) {\n    .article03 .image-wrapper img {\n        width: 90%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* ========================================= */\n/* NOWA SEKCJA - article01 (foto-main) */\n/* ========================================= */\n\n.article01 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article01 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie */\n@media (max-width: 767px) {\n    .article01 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article01 .image-wrapper img {\n        width: 90% !important;\n        max-width: 90% !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na tabletach */\n@media (min-width: 768px) and (max-width: 991px) {\n    .article01 .image-wrapper img {\n        width: 95%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n</style>",
+        "title": "Klimawolt – Montaż i Serwis Klimatyzacji | Poznań i okolice",
+        "meta_descr": "Montaż i serwis klimatyzacji w Poznaniu i okolicach. Dobierzemy i zamontujemy system chłodzenia lub ogrzewania – fachowo, solidnie i zawsze na czas.",
+        "header_custom": "<meta name=\"keywords\" content=\"montaż klimatyzacji Poznań, serwis klimatyzacji, klimatyzacja domowa, klimatyzacja biurowa, klimatyzacja z ogrzewaniem, Klimawolt\">\n<meta name=\"robots\" content=\"index, follow\">\n<link rel=\"canonical\" href=\"https://klimawolt.com/\">\n<meta name=\"language\" content=\"pl\">\n<meta name=\"author\" content=\"Klimawolt\">\n\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-76JL5R0PMC\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'G-76JL5R0PMC');\n</script>\n\n<style>\n/* Responsywne logo w sekcji article03 */\n.article03 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article03 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie zmniejsz logo aby zmieściło się całe */\n@media (max-width: 767px) {\n    .article03 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article03 .image-wrapper img {\n        width: 85% !important;\n        max-width: 85% !important;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* Na średnich ekranach (tablety) */\n@media (min-width: 768px) and (max-width: 991px) {\n    .article03 .image-wrapper img {\n        width: 90%;\n        margin: 0 auto;\n        display: block;\n    }\n}\n\n/* ========================================= */\n/* NOWA SEKCJA - article01 (foto-main) */\n/* ========================================= */\n\n.article01 .image-wrapper {\n    width: 100%;\n    text-align: center;\n    padding: 0 15px;\n}\n\n.article01 .image-wrapper img {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    object-fit: contain;\n}\n\n/* Na telefonie */\n@media (max-width: 767px) {\n    .article01 .image-wrapper {\n        padding: 0 10px;\n    }\n    \n    .article01 .image-wrapper img {\n        width: 90% !important;\n        max-width: 90% !important;\n        margin: 0 au",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/klimawolt-logo-barwne-ciemne-tla-przezr-bduze-1.png"
@@ -720,12 +721,12 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"article01 progressm5\" group=\"Article\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#060606\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#060606\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <div class=\"content-wrapper\">\n                    <div class=\"title-wrapper\" mbr-if=\"showTitle || showText\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Zadbaj o komfort w domu i firmie – szybko, czysto i solidnie.</b></h2>\n                        <div class=\"text-wrapper\">\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrapper\">\n                                Profesjonalny montaż i serwis klimatyzacji\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"image-wrapper\" mbr-if=\"showImage\">\n                        <img src=\"@PROJECT_PATH@/assets/images/foto-main-1.png\" alt=\"main\">\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"index.html#contacts01-b\" data-app-placeholder=\"Type Text\">\n                            <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\n                            Umów bezpłatną wycenę.\n                        </a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "v0rYGt6FfM",
           "_anchor": "article01-b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
